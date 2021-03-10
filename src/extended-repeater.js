@@ -4,7 +4,6 @@ module.exports = function repeater(str, options) {
     
     let {repeatTimes=0,separator="+",addition="undefined addition",additionRepeatTimes=0,additionSeparator="|"} = options
   str = str+""
-  console.log(addition)
   arrOfAddition=[]
   arrOfStr=[]
   arrOfStr.push(str)
